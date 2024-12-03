@@ -1,0 +1,141 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ul { 
+  list-style: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* Container styling */
+.home-container {
+  text-align: center;
+  /* margin: 5% auto; */
+  max-width: 100%;
+  padding: 20px;
+  background-color: #abebd4; /* Light gray background */
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   min-height: 94.2vh; /*Ensure the container has at least full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  overflow-y: hidden;
+}
+
+/* Home page title */
+.home-title {
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+/* Styling for button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Styling for the button list */
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.button-item {
+  display: flex;
+  justify-content: center;                  
+  margin-bottom: 20px;
+}
+
+/* General button styling */
+.home-button {
+  font-size: 1.2rem;
+  font-weight: 500; 
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 250px; /* Set a fixed width for consistency */
+}
+
+/* "Hire Talent" button color */
+.hire-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.hire-button:hover {
+  background-color: #45a049;
+}
+
+/* "Get Job Now" button color */
+.job-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+.job-button:hover {
+  background-color: #1976d2;
+}
+
+/* Link styling */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-button {
+    font-size: 1rem;
+    padding: 8px 15px;
+    width: 200px;
+  }
+}
